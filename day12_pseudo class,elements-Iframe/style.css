@@ -1,0 +1,66 @@
+h1::first-letter{
+    color: aqua;
+    font-size: 5rem;
+} 
+
+p::first-letter{
+    color: green;
+    font-size: 5rem;
+}
+
+p::first-line{
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+p::selection{
+    background-color: brown;
+    color: aliceblue;
+}
+
+h1::before{
+    content: "🏎️";    
+}
+
+h1::after{
+    content: "🚗";
+}
+
+li::marker{
+    content: "🚗";
+}
+a:link{
+    color: chocolate;
+}
+a:visited{
+    color: darkseagreen;
+}
+a:hover{
+    color:white;
+    background-color: black;
+    font-size: 2rem;
+}
+p:hover{
+    background-color: crimson;
+}
+a:active{
+    background-color: azure;
+}
+
+#rohitPic{
+    width: 500px;
+}
+#rohitPic:hover{
+    /* box-shadow: 10px 10px 10px; */
+  /* filter:drop-shadow(20px 10px 10px green) */
+  /* filter: blur(5px); */
+  /* filter: invert(); */
+  filter: grayscale();
+
+}
+
+iframe{
+    width: 1000px;
+    height:1000px;
+
+}
